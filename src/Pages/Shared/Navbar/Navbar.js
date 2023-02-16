@@ -20,10 +20,10 @@ const Navbar = () => {
 
       <ul className='menu_nav'>
         <li>
-          <Link className='button1'>Sign In</Link>
+          <Link to="/login" className='button1'>Sign In</Link>
         </li>
         <li>
-          <Link className='button1'>Sign Out</Link>
+          <Link to="/signup" className='button1'>Registration</Link>
         </li>
         {/* <li>
           <Link className='button1'>Sign Out</Link>

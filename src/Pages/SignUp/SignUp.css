@@ -1,0 +1,35 @@
+.form_main_div{
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.form_div_reg{
+  width: 100%;
+  height: 80%;
+  display: grid;
+}
+
+.form_div_reg label{
+  font-size: 2.4rem;
+}
+
+.input_field {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--color4);
+  width: 80%;
+  height: 5vh;
+  margin-bottom: 5vh;
+  font-size: 2.2rem;
+  color: var(--color4);
+  width: 60vw;
+}
+
+
+.input_field:focus {
+  background-color: transparent;
+  outline: none;
+}
