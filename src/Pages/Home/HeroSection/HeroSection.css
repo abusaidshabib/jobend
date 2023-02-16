@@ -1,0 +1,42 @@
+.hero_div {
+  height: 60vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../../assets/heroBackground.jpg");
+}
+
+.form_div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.input_btn {
+  border: none;
+  height: 5rem;
+  padding: 0px 28px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background-color: var(--color4);
+}
+
+.input_btn:hover{
+  background-color: var(--color3);
+}
+
+.search_field {
+  height: 5rem;
+  padding: 0 28px;
+}
+
+.search_field:focus{
+  border: none;
+}
+
+.search_field option {
+  font-size: 1.2rem;
+  background-color: var(--color4);
+}

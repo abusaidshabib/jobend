@@ -1,4 +1,102 @@
-.App {
+:root{
+  /* Colors of variables */
+  --darkBg: #212226;
+  --color1: #557B83;
+  --color2: #39AEA9;
+  --color3: #A2D5AB;
+  --color4: #E5EFC1;
+
+
+  /* fonts */
+  --title1: 7.2rem;
+  --title2: 5.6rem;
+  --title4: 2.6rem;
+  --para1: 2.4rem;
+  --para2: 1.6rem;
+  --para3: 2rem;
+  --para4: 1.6rem;
+
+  /* margin and padding */
+  --bothMargin: 0 100px;
+  --bothPadding: 0 100px;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  background-color: var(--darkBg);
+}
+/* fonts */
+.title1{
+  font-size: var(--title1);
+  color: var(--color3);
+  text-transform: uppercase;
+  line-height: 10.6rem;
+}
+
+.title2{
+  font-size: var(--title2);
+  color: var(--color4);
+}
+
+.title4{
+  font-size: var(--title4);
+  color: var(--color4);
+}
+
+.para1{
+  font-size: var(--para1);
+  color: var(--color4);
+}
+
+.para2{
+  font-size: var(--para2);
+  color: var(--color3);
+}
+
+.para3{
+  font-size: var(--para3);
+  color: var(--color4);
+}
+
+.para4{
+  font-size: var(--para4);
+  color: var(--color4);
+}
+
+/* buttons */
+.button1{
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: var(--color4);
+  color: var(--darkBg);
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.para_bold1{
+  padding: 50px 0px 20px 0px;
+  color: var(--color4);
+  font-size: var(--para1);
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+
+.button1:hover{
+  background-color: var(--color3);
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +133,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

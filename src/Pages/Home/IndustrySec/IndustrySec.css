@@ -1,0 +1,30 @@
+.main_indus {
+  display: grid;
+  align-items: center;
+  padding: 0 50px;
+  height: 80vh;
+}
+
+.indus_sec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.sec_div {
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  justify-content: center;
+  border: 2px solid var(--color4);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border-radius: 10px;
+}
+
+.sec_div:hover{
+  background-color: var(--color3);
+  color: var(--darkBg);
+}

@@ -1,0 +1,22 @@
+.main_companies_div{
+  height: 30vh;
+  padding: 0 50px;
+}
+
+.companies_div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.com_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.com_section span{
+  margin-left: 20px;
+}

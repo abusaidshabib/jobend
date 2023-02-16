@@ -1,0 +1,23 @@
+.jobs_portal {
+  padding: 0 50px;
+}
+
+.job_section {
+  border: 1px solid var(--color4);
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.portals_job {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.link_Deco {
+  text-decoration: none;
+}
+
+.job_section:hover{
+  background-color: var(--color1);
+}
