@@ -68,3 +68,13 @@
   color: var(--color4);
   padding: 10px;
 }
+
+@media (max-width: 601px){
+  .footer_div{
+    padding: 20px;
+  }
+
+  .footer_list{
+    display: none;
+  }
+}

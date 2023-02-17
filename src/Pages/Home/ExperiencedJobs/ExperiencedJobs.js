@@ -29,7 +29,7 @@ const ExperiencedJobs = () => {
                   <p className='para1'>{job.jobLocation}</p>
                   <p className='para2'>{job.CompanyName}</p><br />
                   <p className='para3'><b>Requirements:</b></p>
-                  <p className='para3'>{job.Requirements.slice(0, 150)}...<button className='button1'>Click to view Details</button></p>
+                  <p className='para3'>{job.Requirements.slice(0, 150)}...<Link className='text_link'>Click to view Details</Link></p>
                 </Link>
               </div>
             )

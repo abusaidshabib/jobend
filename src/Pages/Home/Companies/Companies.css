@@ -26,3 +26,25 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 601px){
+  .main_companies_div{
+    display: grid;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .companies_div{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .com_section span{
+    margin-left: 5px;
+  }
+  
+  .com_section img{
+    width: 80%;
+  }
+}

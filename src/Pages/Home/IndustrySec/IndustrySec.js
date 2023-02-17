@@ -34,7 +34,7 @@ const IndustrySec = () => {
   return (
     <div className='main_indus'>
       <div>
-        <h2 className='title2'>All working categories</h2>
+        <h2 className='title2'>All working categories</h2> <br/><br/>
         <div className='indus_sec'>
           {
             datas.map(data =>

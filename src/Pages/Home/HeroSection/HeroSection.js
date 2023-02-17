@@ -17,7 +17,6 @@ const HeroSection = () => {
           <h1 className='title1'>Find great places to work</h1>
           <p className='para1'>Get access to millions of company reviews</p>
         </div>
-
         <p className='para_bold1'>find depending your needs</p>
         <div>
           <Link className='button1' onClick={() => setSearchToggle(false)}>For Jobs</Link>
