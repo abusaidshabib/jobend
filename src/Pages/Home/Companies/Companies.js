@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Companies.css";
 
 const Companies = () => {
@@ -35,12 +36,19 @@ const Companies = () => {
       <div className='companies_div'>
         {
           popularCompanies.map(com =>
-            <div key={com.id} className="com_section">
-              <img src={com.icons} alt="" />
-              <span>
-                <p className='title4'>{com.title}</p>
-                <p className='para4'>{com.numberOfRev}</p>
-              </span>
+            <div className='align_center_com'>
+              <div>
+                <div key={com.id} className="com_section">
+                  <img src={com.icons} alt="" />
+                  <span>
+                    <p className='title4'>{com.title}</p>
+                    <p className='para4'>{com.numberOfRev} <b>Reviews</b></p>
+                  </span>
+                </div>
+                <div className='align_center_com'>
+                  <Link className='button1'>Company Details</Link>
+                </div>
+              </div>
             </div>
           )
         }

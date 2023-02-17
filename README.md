@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Job Portal Task
+Description:
+Our company is currently looking for a front-end web developer to build a brand new Job Portal site. Task details are given below. UI must have to be decent
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Task Details:
 
-## Available Scripts
+1. The Home page will have - a Navbar, a Toggle button for Job Seeker and Job poster,Fresher Jobs, Experienced Jobs, Top IT Companies and a Footer
 
-In the project directory, you can run:
+2. Navbar will contain 4 routes.( Home, About, Contact Us, Sign In / Sign Out )
 
-### `npm start`
+3.Toggle Button will have animation(Optional)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4.Fresher Jobs will contain- Top 6 Tech jobs suggestions with apply button,  See All Jobs Button and Each Job section will consist of the position name, job location, company name and Apply button.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. Experienced Jobs section will contain- Top 6 Tech jobs suggestions with apply button, See All Jobs Button,and Each Job section will consist of the position name, job location, company name and companies logos and Apply button.
 
-### `npm test`
+6. Top IT Companies section will contain- Top 3 IT Companies in Bangladesh with view details button, Top 3 IT Companies Worldwide with view details button
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Additional information:
+Make the website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsiveness is optional.
+Add authentication system ( using firebase), When a user clicks on Apply jobs he will be redirected to the sign-up/ login page.
+Bonus : 
+Make About and Contact Us pages realistic and contentful.
+Use any animation library 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Some Template for design ideas: 
+https://preview.colorlib.com/#joblab
+https://preview.colorlib.com/#jobportal
+https://preview.colorlib.com/#skillhunt
+https://preview.colorlib.com/#jobsco
+https://preview.colorlib.com/#jobpply
+https://preview.colorlib.com/#jobfinderportal
+https://preview.colorlib.com/#jobboard2
+https://preview.colorlib.com/#jobpro
+https://preview.colorlib.com/#jobhub
+https://preview.colorlib.com/#joblisting 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

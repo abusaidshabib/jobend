@@ -33,3 +33,7 @@
   background-color: transparent;
   outline: none;
 }
+
+.text_link{
+  color: var(--color4);
+}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import "./JobDetails.css";
 
 const JobDetails = ({ data }) => {
@@ -13,7 +14,9 @@ const JobDetails = ({ data }) => {
           <p className='para1'>{data?.jobLocation}</p>
           <p className='para2'>{data?.CompanyName}</p><br />
           <p className='para3'><b>Requirements:</b></p>
-          <p className='para3'>{data?.Requirements.slice(0, 150)}...</p>
+          <p className='para3'>{data?.Requirements}</p>
+          <br /><br /><br /><br />
+          <Link className='button1'>Apply Now</Link>
         </div>
       }
     </div>
