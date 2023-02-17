@@ -35,6 +35,7 @@ const ContactUs = () => {
         <br />
         <br />
         <input className='input_field' type="password" name="password" id="password" />
+        <input className='button1 width_button' type="submit" value="submit" />
       </form>
     </div>
   );
