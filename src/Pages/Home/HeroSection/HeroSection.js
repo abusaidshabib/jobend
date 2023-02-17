@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./HeroSection.css";
+import { motion } from "framer-motion"
 
 const HeroSection = () => {
+
+  const [active, setActive] = useState();
 
   const [searchToggle, setSearchToggle] = useState(false);
   console.log(searchToggle);
@@ -23,7 +26,8 @@ const HeroSection = () => {
         </div>
         {
           searchToggle ?
-            <>
+            <motion.div animate={{x:[400,0]}}
+              transition={{ duration: 1 }}>
               <b className='para1'>Search candidate</b>
               <form className='form_div'>
                 <input className='search_field' type="text" name="" id="" placeholder='What are you looking for?' />
@@ -47,9 +51,10 @@ const HeroSection = () => {
                 </select>
                 <input className='input_btn' type="submit" value="search" />
               </form>
-            </>
+            </motion.div>
             :
-            <>
+            <motion.div animate={{x:[-400, 0]}}
+              transition={{ duration: 0.8 }}>
               <b className='para1'>Search jobs</b>
               <form className='form_div'>
                 <input className='search_field' type="text" name="" id="" placeholder='What are you looking for?' />
@@ -73,7 +78,7 @@ const HeroSection = () => {
                 </select>
                 <input className='input_btn' type="submit" value="search" />
               </form>
-            </>
+            </motion.div>
         }
       </div>
     </div>

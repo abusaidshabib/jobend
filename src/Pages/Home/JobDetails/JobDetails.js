@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../Context/UserContext/UserContext';
 import "./JobDetails.css";
 
 const JobDetails = ({ data }) => {
+
+  const { user } = useContext(AuthContext);
 
   return (
     <div>
@@ -16,7 +19,12 @@ const JobDetails = ({ data }) => {
           <p className='para3'><b>Requirements:</b></p>
           <p className='para3'>{data?.Requirements}</p>
           <br /><br /><br /><br />
-          <Link className='button1'>Apply Now</Link>
+          {
+            user ?
+              <Link to="/home" className='button1'>Apply Now</Link>
+              :
+              <Link className='button1' to="/signup">Apply Now</Link>
+          }
         </div>
       }
     </div>

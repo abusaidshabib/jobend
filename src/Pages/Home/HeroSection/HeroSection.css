@@ -4,6 +4,10 @@
   align-items: center;
   justify-content: center;
   background-image: url("../../../assets/heroBackground.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)), url("../../../assets/heroBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form_div {
@@ -23,7 +27,7 @@
   background-color: var(--color4);
 }
 
-.input_btn:hover{
+.input_btn:hover {
   background-color: var(--color3);
 }
 
@@ -32,7 +36,7 @@
   padding: 0 28px;
 }
 
-.search_field:focus{
+.search_field:focus {
   border: none;
 }
 
