@@ -1,35 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./IndustrySec.css";
 
 const IndustrySec = () => {
+  const [datas, setdatas] = useState([]);
 
-  const datas = [
-    {
-      "id": 1,
-      "title": "Medical"
-    },
-    {
-      "id": 2,
-      "title": "Technology"
-    },
-    {
-      "id": 3,
-      "title": "Government"
-    },
-    {
-      "id": 4,
-      "title": "Development"
-    },
-    {
-      "id": 5,
-      "title": "Designer"
-    },
-    {
-      "id": 6,
-      "title": "Writer"
-    }
-  ]
+
+  useEffect(() => {
+    fetch("http://localhost:5000/categories")
+    .then(res => res.json())
+    .then(data => setdatas(data.data))
+  }, [])
 
   return (
     <div className='main_indus'>
@@ -38,13 +19,13 @@ const IndustrySec = () => {
         <div className='indus_sec'>
           {
             datas.map(data =>
-              <div className='sec_div' key={data.id}>
+              <div className='sec_div' key={data._id}>
                 <p className='title4'>{data.title}</p>
               </div>
             )
           }
         </div>
-        <Link className='button1'>See all the category</Link>
+        <Link to="" className='button1'>See all the category</Link>
       </div>
     </div>
   );

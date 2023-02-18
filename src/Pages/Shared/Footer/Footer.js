@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <div className='sub_div'>
           <input className='footer_check' type="checkbox" name="" id="subscribe" value="" />
-          <label for="subscribe">Get notifications about top blogs and offers</label>
+          <label htmlFor="subscribe">Get notifications about top blogs and offers</label>
         </div>
       </div>
     </div>

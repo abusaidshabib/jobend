@@ -1,39 +1,39 @@
 [
   {
-    "id": 1,
     "Position": "Software Developer",
+    "JobsFor": "freshers",
     "jobLocation": "San Francisco, CA",
     "CompanyName": "Google",
     "Requirements": "Bachelor's degree in Computer Science or a related field, experience with programming languages such as Java, Python, or C++.Bachelor's degree in Computer Science or a related field, experience with programming languages such as Java, Python, or C++.Bachelor's degree in Computer Science or a related field, experience with programming languages such as Java, Python, or C++.Bachelor's degree in Computer Science or a related field, experience with programming languages such as Java, Python, or C++.",
     "img": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
   },
   {
-    "id": 2,
     "Position": "UI/UX Designer",
+    "JobsFor": "freshers",
     "jobLocation": "New York, NY",
     "CompanyName": "Airbnb",
     "Requirements": "Bachelor's degree in design or a related field, experience with design tools such as Sketch, Adobe Creative Suite, and InVision.Bachelor's degree in design or a related field, experience with design tools such as Sketch, Adobe Creative Suite, and InVision.Bachelor's degree in design or a related field, experience with design tools such as Sketch, Adobe Creative Suite, and InVision.Bachelor's degree in design or a related field, experience with design tools such as Sketch, Adobe Creative Suite, and InVision.",
     "img": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
   },
   {
-    "id": 3,
     "Position": "Data Analyst",
+    "JobsFor": "freshers",
     "jobLocation": "Seattle, WA",
     "CompanyName": "Amazon",
     "Requirements": "Bachelor's degree in Statistics, Mathematics, or a related field, experience with SQL, R, or Python.Bachelor's degree in Statistics, Mathematics, or a related field, experience with SQL, R, or Python.Bachelor's degree in Statistics, Mathematics, or a related field, experience with SQL, R, or Python.Bachelor's degree in Statistics, Mathematics, or a related field, experience with SQL, R, or Python.Bachelor's degree in Statistics, Mathematics, or a related field, experience with SQL, R, or Python",
     "img": "https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
   },
   {
-    "id": 4,
     "Position": "Cybersecurity Analyst",
+    "JobsFor": "freshers",
     "jobLocation": "Washington, D.C.",
     "CompanyName": "Booz Allen Hamilton",
     "Requirements": "Bachelor's degree in Cybersecurity, Computer Science, or a related field, experience with security tools such as Splunk or Nessus.Bachelor's degree in Cybersecurity, Computer Science, or a related field, experience with security tools such as Splunk or Nessus.Bachelor's degree in Cybersecurity, Computer Science, or a related field, experience with security tools such as Splunk or Nessus.Bachelor's degree in Cybersecurity, Computer Science, or a related field, experience with security tools such as Splunk or Nessus.",
     "img": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1168&q=80"
   },
   {
-    "id": 5,
     "Position": "DevOps Engineer",
+    "JobsFor": "freshers",
     "jobLocation": "Austin, TX",
     "CompanyName": "Dell",
     "Requirements": "Bachelor's degree in Computer Science or a related field, experience with cloud technologies such as AWS or Azure. Bachelor's degree in Computer Science or a related field, experience with cloud technologies such as AWS or Azure. Bachelor's degree in Computer Science or a related field, experience with cloud technologies such as AWS or Azure. Bachelor's degree in Computer Science or a related field, experience with cloud technologies such as AWS or Azure. Bachelor's degree in Computer Science or a related field, experience with cloud technologies such as AWS or Azure.",

@@ -8,11 +8,10 @@ const ExperiencedJobs = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
-    fetch("JobsExperi.json")
+    fetch("http://localhost:5000/jobs/experts")
       .then(res => res.json())
       .then(data => {
-        console.log(data)
-        setJobs(data)
+        setJobs(data.data)
       })
   }, [])
 
@@ -23,7 +22,7 @@ const ExperiencedJobs = () => {
         <div>
           {
             jobs.slice(0, 3).map(job =>
-              <div className='job_section' key={job.id}>
+              <div className='job_section' key={job._id}>
                 <Link to="" onClick={() => setData(job)} className='link_Deco'>
                   <p className='para_bold1'>{job.Position}</p>
                   <p className='para1'>{job.jobLocation}</p>
