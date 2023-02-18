@@ -5,3 +5,15 @@
 .width_button{
   width: 64%;
 }
+
+@media (max-width: 601px){
+  .contact_div{
+    padding: 30px;
+    text-align: center;
+  }
+
+  .form_div_reg{
+    display: grid;
+    justify-items: center;
+  }
+}

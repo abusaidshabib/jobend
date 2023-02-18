@@ -97,8 +97,57 @@ html {
   background-color: var(--color3);
 }
 
+@media (max-width: 360px){
+  html{
+    font-size: 25%;
+  }
+
+}
+
 @media (max-width: 601px) {
   html {
     font-size: 32%;
+  }
+}
+
+@media (max-width: 810px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 962px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media(max-width: 1280px) {
+  html {
+    font-size: 57%;
+  }
+}
+
+@media(max-width: 1366px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 62%;
+  }
+}
+
+@media (max-width: 1536px) {
+  html {
+    font-size: 68%;
   }
 }

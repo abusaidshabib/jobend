@@ -46,24 +46,23 @@ const Navbar = () => {
           }
         </ul>
         {
-          toggle ? <Link className='toggleMenu' onClick={() => setToggle(!toggle)}><AiOutlineMenu /></Link>
-            :
+          toggle ?
             <Link className='toggleMenu' onClick={() => setToggle(!toggle)}><AiOutlineClose /></Link>
+            :
+            <Link className='toggleMenu' onClick={() => setToggle(!toggle)}><AiOutlineMenu /></Link>
         }
       </div>
       {
         toggle ?
-          <></>
-          :
           <ul className='mobile_menu_div'>
             <li>
-              <Link className='menu_text' to="/home">Home</Link>
+              <Link className='menu_text' onClick={() => setToggle(!toggle)} to="/home">Home</Link>
             </li>
             <li>
-              <Link className='menu_text' to="/about">About Us</Link>
+              <Link className='menu_text' onClick={() => setToggle(!toggle)} to="/about">About Us</Link>
             </li>
             <li>
-              <Link className='menu_text' to="/contact">Contact Us</Link>
+              <Link className='menu_text' onClick={() => setToggle(!toggle)} to="/contact">Contact Us</Link>
             </li>
             {
               user?.uid ?
@@ -75,14 +74,16 @@ const Navbar = () => {
                 :
                 <>
                   <li>
-                    <Link to="/login" className='button1'>Sign In</Link>
+                    <Link to="/login" onClick={() => setToggle(!toggle)} className='button1'>Sign In</Link>
                   </li>
                   <li>
-                    <Link to="/signup" className='button1'>Registration</Link>
+                    <Link to="/signup" onClick={() => setToggle(!toggle)} className='button1'>Registration</Link>
                   </li>
                 </>
             }
           </ul>
+          :
+          <></>
       }
     </div>
   );

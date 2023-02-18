@@ -29,10 +29,6 @@
     justify-items: center;
   }
 
-  .portals_job {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
   .job_hidden {
     display: none;
   }
@@ -40,4 +36,12 @@
   .job_section {
     padding: 20px;
   }
+}
+
+@media (max-width: 910px) {
+
+  .portals_job {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 }

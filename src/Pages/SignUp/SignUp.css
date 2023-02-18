@@ -37,3 +37,9 @@
 .text_link{
   color: var(--color4);
 }
+
+@media (max-width: 601px){
+  .form_main_div h2{
+    text-align: center;
+  }
+}
