@@ -7,15 +7,15 @@ const IndustrySec = () => {
 
 
   useEffect(() => {
-    fetch("http://localhost:5000/categories")
-    .then(res => res.json())
-    .then(data => setdatas(data.data))
+    fetch("https://jobend-backend.vercel.app/categories")
+      .then(res => res.json())
+      .then(data => setdatas(data.data))
   }, [])
 
   return (
     <div className='main_indus'>
       <div>
-        <h2 className='title2'>All working categories</h2> <br/><br/>
+        <h2 className='title2'>All working categories</h2> <br /><br />
         <div className='indus_sec'>
           {
             datas.map(data =>

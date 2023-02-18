@@ -6,9 +6,9 @@ const Companies = () => {
   const [popularCompanies, setPopularCompanies] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/companies")
-    .then(res => res.json())
-    .then(data => setPopularCompanies(data.data));
+    fetch("https://jobend-backend.vercel.app/companies")
+      .then(res => res.json())
+      .then(data => setPopularCompanies(data.data));
   }, [])
 
 
